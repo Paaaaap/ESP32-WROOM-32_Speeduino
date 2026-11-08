@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="780" viewBox="0 0 680 390" font-family="DejaVu Sans, Arial, sans-serif">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#444" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="680" height="390" fill="#ffffff"/>
+<rect x="40" y="40" width="180" height="290" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.8"/>
+<text x="130" y="64" text-anchor="middle" font-size="14" font-weight="bold" fill="#085041">Speeduino</text>
+<text x="130" y="82" text-anchor="middle" font-size="11" fill="#0F6E56">Arduino Mega, 5 V logic</text>
+<text x="210" y="114" text-anchor="end" font-size="11" fill="#085041">RX0 (pin 0)</text>
+<text x="210" y="184" text-anchor="end" font-size="11" fill="#085041">TX0 (pin 1)</text>
+<text x="210" y="254" text-anchor="end" font-size="11" fill="#085041">GND</text>
+<text x="210" y="304" text-anchor="end" font-size="11" fill="#085041">5V (not VIN, not 3.3V)</text>
+<rect x="460" y="40" width="180" height="290" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.8"/>
+<text x="550" y="64" text-anchor="middle" font-size="14" font-weight="bold" fill="#3C3489">ESP32-WROOM-32D</text>
+<text x="550" y="82" text-anchor="middle" font-size="11" fill="#534AB7">HW-394, 3.3 V logic</text>
+<text x="470" y="114" font-size="11" fill="#3C3489">D17 (TX2)</text>
+<text x="470" y="184" font-size="11" fill="#3C3489">D16 (RX2)</text>
+<text x="470" y="254" font-size="11" fill="#3C3489">GND</text>
+<text x="470" y="304" font-size="11" fill="#3C3489">VIN</text>
+<line x1="460" y1="110" x2="222" y2="110" stroke="#1D9E75" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="340" y="100" text-anchor="middle" font-size="11" fill="#555">3.3 V signal, direct</text>
+<line x1="220" y1="180" x2="270" y2="180" stroke="#1D9E75" stroke-width="1.5"/>
+<rect x="270" y="172" width="60" height="16" rx="3" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.8"/>
+<text x="300" y="166" text-anchor="middle" font-size="11" fill="#555">R1 1 kΩ</text>
+<text x="245" y="166" text-anchor="middle" font-size="11" fill="#555">5 V</text>
+<line x1="330" y1="180" x2="458" y2="180" stroke="#1D9E75" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="425" y="166" text-anchor="middle" font-size="11" fill="#555">~3.4 V</text>
+<circle cx="390" cy="180" r="3" fill="#1D9E75"/>
+<line x1="390" y1="180" x2="390" y2="198" stroke="#1D9E75" stroke-width="1.5"/>
+<rect x="382" y="198" width="16" height="40" rx="3" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.8"/>
+<text x="374" y="222" text-anchor="end" font-size="11" fill="#555">R2 2.2 kΩ</text>
+<line x1="390" y1="238" x2="390" y2="250" stroke="#888780" stroke-width="1.5"/>
+<line x1="220" y1="250" x2="460" y2="250" stroke="#888780" stroke-width="1.5"/>
+<circle cx="390" cy="250" r="3" fill="#888780"/>
+<text x="290" y="244" text-anchor="middle" font-size="11" fill="#555">common ground</text>
+<line x1="220" y1="300" x2="460" y2="300" stroke="#D85A30" stroke-width="1.5"/>
+<text x="290" y="294" text-anchor="middle" font-size="11" fill="#555">5 V supply</text>
+<line x1="425" y1="250" x2="425" y2="262" stroke="#888780" stroke-width="1.5"/>
+<line x1="445" y1="250" x2="445" y2="262" stroke="#888780" stroke-width="1.5"/>
+<rect x="419" y="262" width="12" height="26" rx="2" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.8"/>
+<rect x="439" y="262" width="12" height="26" rx="2" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.8"/>
+<line x1="425" y1="288" x2="425" y2="300" stroke="#D85A30" stroke-width="1.5"/>
+<line x1="445" y1="288" x2="445" y2="300" stroke="#D85A30" stroke-width="1.5"/>
+<circle cx="425" cy="250" r="3" fill="#888780"/><circle cx="445" cy="250" r="3" fill="#888780"/>
+<circle cx="425" cy="300" r="3" fill="#D85A30"/><circle cx="445" cy="300" r="3" fill="#D85A30"/>
+<text x="412" y="279" text-anchor="end" font-size="11" fill="#555">470 µF + 100 nF</text>
+<text x="340" y="362" text-anchor="middle" font-size="12" fill="#A32D2D">Disconnect the 5V wire from VIN when flashing the ESP32 over USB-C</text>
+</svg>
